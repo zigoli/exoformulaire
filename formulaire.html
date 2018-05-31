@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> un formulaire</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+          <h1>Un formulaire d'identification</h1>
+            <!--je crée le formulaire-->
+          <form class="form-control" action="index.html" method="post">
+            <div class="container" id="contact-form">
+                <!--je crée un input de pour inditifier le sexe de l'utilisatuer-->
+                    <p>Vous êtes:</p>
+                    <input  type="radio" name="sexe" value="homme">
+                    <label for="sexe">Homme</label> <br>
+                    <input type="radio" name="sexe" value="femme">
+                    <label for="sexe">Femme</label>
+                                      <br><br>
+                  <!--je crée des input pour identification de l'utilisateur-->
+                    <label for="prenom">Prénom</label>
+                    <input class="text" type="text" name="prenom"  id="prenom" placeholder="votre prénom ici">
+                                        <br><br>
+                      <label for="nom">Nom</label>
+                      <input class="text" type="text" name="nom"  id="nom" placeholder="votre nom ici">
+                              <br><br>
+                      <label for="age">Date de naissance</label>
+                      <input class="text" type="date" name="age"  id="age" >
+                      <br><br>
+                      <label for="email">Email</label>
+                      <input class="text" type="email" name="mail"  id="email">
+                      <br><br>
+                      <label for="tel">Téléphone</label>
+                      <input class="text" type="number" name="phone"  id="tel">
+                      <br><br>
+            <!--je crée un seclect pour un choix d'option unique-->
+              <p>Quel aliment aimez-vous?</p>
+              <select class="" name="">
+                <option value="bread">Pain</option>
+                <option value="rice">Riz</option>
+                <option value="banana">Banane</option>
+                <option value="cassava">Manioc</option>
+              </select>
+              <br><br>
+                <!--je crée un textarea pour l'ajout d'un commentaire-->
+              <label for="comment">Commentaire  </label>
+              <textarea id="comment" name="comment" rows="8" cols="20"></textarea>
+              <br><br>
+              <!--je crée un input de type envoie-->
+              <input class="submit" type="submit" value="Envoyer">
+            </div>
+          </div>
+          </form>
+  </body>
+</html>

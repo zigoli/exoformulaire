@@ -1,0 +1,34 @@
+#contact-form{
+	margin: 10px 300px;
+	display: inline-grid;
+	border: 2px solid black;
+	padding: 20px;
+	background-color:#D3D3D3;
+	width: 700px;
+	height: auto;
+}
+.form-control{
+	font-size: 15px;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	color: red;
+}
+p{
+	font-size: 20px;
+}
+.text{
+	width: 300px;
+	height: 30px;
+}
+.submit{
+	width: 100px;
+	height: 30px;
+	margin-left: 120px;
+}
+#comment{
+	padding: 20px;
+	margin-left: 20px;
+}
